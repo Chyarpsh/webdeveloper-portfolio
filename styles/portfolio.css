@@ -1,9 +1,11 @@
 /*common shared styles*/
-body {
+body 
+{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
-.text-primary {
+.text-primary 
+{
     color: #fd6e0f;
 }
 .btn-primary {
@@ -28,47 +30,46 @@ body {
     text-align: center;
     font-size: 18px;
 }
-
 /* nav related styles */
-nav {
+nav 
+{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
-
 }
-
-.nav-title {
+.nav-title 
+{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-
-nav>ul {
+nav>ul 
+{
     display: flex;
     align-items: center;
 }
-
-nav li {
+nav li 
+{
     list-style: none;
     margin-right: 50px;
 }
-
-nav a {
+nav a 
+{
     text-decoration: none;
     color: #474747;
 }
 
 /*header related styles*/
-.header {
+.header 
+{
     background-color: #fff8f3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-
 }
-
-.banner {
+.banner 
+{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
@@ -82,19 +83,22 @@ nav a {
 {
     width: 500px
 }
-.banner-greeting {
+.banner-greeting 
+{
     font-size: 45px;
     color: #474747;
     margin-bottom: 0px;
 }
-.banner-title {
+.banner-title 
+{
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
     color: #474747;
 }
-.banner-description {
+.banner-description 
+{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -103,12 +107,30 @@ nav a {
 }
 
 /*main section styles*/
-
+.main
+{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*about section styles*/
-.about {
+.about 
+{
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
-
+    margin: 200px 0;
 }
+.about-info-container
+{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info
+{
+    text-align: center;
+}
+#What-I-Do-description
+{
+    padding: 30px 150px;
+}
+
